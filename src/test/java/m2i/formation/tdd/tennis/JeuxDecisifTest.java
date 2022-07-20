@@ -30,7 +30,7 @@ public class JeuxDecisifTest {
     public void testGagnePointDansJeuxDecisif() {
         partie.setJeuxDecisif(true);
         partie.getScoreJoueur1().setPoint(0);
-        for( int i = 1; i <= 6; i++){
+        for (int i = 1; i <= 6; i++) {
             compteurScore.joueurGagnePoint(partie, joueur1);
             assertEquals(i, partie.getScoreJoueur1().getPoint());
         }

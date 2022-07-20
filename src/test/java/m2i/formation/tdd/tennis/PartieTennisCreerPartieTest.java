@@ -39,5 +39,4 @@ public class PartieTennisCreerPartieTest {
         assertEquals(joueur1, partie.getJoueur1());
         assertEquals(joueur2, partie.getJoueur2());
     }
-
 }

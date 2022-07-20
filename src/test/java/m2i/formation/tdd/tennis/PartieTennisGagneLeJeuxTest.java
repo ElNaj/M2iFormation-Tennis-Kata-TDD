@@ -26,7 +26,7 @@ class PartieTennisGagneLeJeuxTest {
         compteurScore.joueurGagnePoint(partie, joueur1);
         assertEquals(1, partie.getScoreJoueur1().getJeux());
     }
-    
+
     @Test
     @DisplayName("Le jeu est gagné si le gagnant a un avantage et les points sont ensuite remis à 0")
     public void testGagnerAvecAvantageEtMiseAZero() {
@@ -40,7 +40,7 @@ class PartieTennisGagneLeJeuxTest {
         assertFalse(partie.getScoreJoueur2().isAvantage());
         assertFalse(partie.getScoreJoueur2().isAvantage());
     }
-    
+
     @Test
     @DisplayName("Le perdant a moins de 30 points et le gagnant a 40 point")
     public void testJeuxGagnerParAvance() {
