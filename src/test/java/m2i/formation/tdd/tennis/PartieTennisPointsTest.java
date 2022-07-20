@@ -6,7 +6,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @DisplayName("Joueur qui gagne le point")
-public class PartieTennisPointsTest {
+class PartieTennisPointsTest {
 
     private static Joueur joueur1 = new Joueur();
     private static Joueur joueur2 = new Joueur();

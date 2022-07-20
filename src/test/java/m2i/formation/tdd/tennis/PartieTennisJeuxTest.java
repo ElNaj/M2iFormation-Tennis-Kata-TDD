@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @DisplayName("Joueur qui gagne un jeu")
-public class PartieTennisJeuxTest {
+class PartieTennisJeuxTest {
 
     private static Joueur joueur1 = new Joueur();
     private static Joueur joueur2 = new Joueur();

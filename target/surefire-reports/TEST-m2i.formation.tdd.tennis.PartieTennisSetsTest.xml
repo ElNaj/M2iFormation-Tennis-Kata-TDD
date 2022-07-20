@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="m2i.formation.tdd.tennis.PartieTennisSetsTest" time="0.001" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="m2i.formation.tdd.tennis.PartieTennisSetsTest" time="0.008" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Data\M2i-Formation\DEV\JAVA-TDD\Tennis Kata\tennis-kata\target\test-classes;C:\Data\M2i-Formation\DEV\JAVA-TDD\Tennis Kata\tennis-kata\target\classes;C:\Users\najim.elfateoui\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.0\junit-jupiter-engine-5.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\junit\platform\junit-platform-engine\1.0.0\junit-platform-engine-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\junit\platform\junit-platform-commons\1.0.0\junit-platform-commons-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.0.0\junit-jupiter-api-5.0.0.jar;"/>
+    <property name="java.class.path" value="c:\Data\M2i-Formation\DEV\JAVA-TDD\Tennis Kata\tennis-kata\target\test-classes;c:\Data\M2i-Formation\DEV\JAVA-TDD\Tennis Kata\tennis-kata\target\classes;C:\Users\najim.elfateoui\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.0\junit-jupiter-engine-5.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\junit\platform\junit-platform-engine\1.0.0\junit-platform-engine-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\junit\platform\junit-platform-commons\1.0.0\junit-platform-commons-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.0.0\junit-jupiter-api-5.0.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\Jdk-15.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\NAJIM~1.ELF\AppData\Local\Temp\surefire9833314704702235237\surefirebooter2951468066009327834.jar C:\Users\najim.elfateoui\AppData\Local\Temp\surefire9833314704702235237 2022-07-19T17-35-42_612-jvmRun1 surefire14553911044294613673tmp surefire_03535099609810368883tmp"/>
+    <property name="sun.java.command" value="C:\Users\NAJIM~1.ELF\AppData\Local\Temp\surefire670366078562278256\surefirebooter3910041234484370162.jar C:\Users\najim.elfateoui\AppData\Local\Temp\surefire670366078562278256 2022-07-20T16-16-59_991-jvmRun1 surefire15769785146675497817tmp surefire_013570560325517270037tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Data\M2i-Formation\DEV\JAVA-TDD\Tennis Kata\tennis-kata\target\test-classes;C:\Data\M2i-Formation\DEV\JAVA-TDD\Tennis Kata\tennis-kata\target\classes;C:\Users\najim.elfateoui\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.0\junit-jupiter-engine-5.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\junit\platform\junit-platform-engine\1.0.0\junit-platform-engine-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\junit\platform\junit-platform-commons\1.0.0\junit-platform-commons-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.0.0\junit-jupiter-api-5.0.0.jar;"/>
+    <property name="surefire.test.class.path" value="c:\Data\M2i-Formation\DEV\JAVA-TDD\Tennis Kata\tennis-kata\target\test-classes;c:\Data\M2i-Formation\DEV\JAVA-TDD\Tennis Kata\tennis-kata\target\classes;C:\Users\najim.elfateoui\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.0\junit-jupiter-engine-5.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\junit\platform\junit-platform-engine\1.0.0\junit-platform-engine-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\junit\platform\junit-platform-commons\1.0.0\junit-platform-commons-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\najim.elfateoui\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.0.0\junit-jupiter-api-5.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\najim.elfateoui"/>
     <property name="user.language" value="fr"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2021-01-19"/>
     <property name="java.home" value="C:\Program Files\OpenJDK\Jdk-15.0.2"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Data\M2i-Formation\DEV\JAVA-TDD\Tennis Kata\tennis-kata"/>
+    <property name="basedir" value="c:\Data\M2i-Formation\DEV\JAVA-TDD\Tennis Kata\tennis-kata"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\NAJIM~1.ELF\AppData\Local\Temp\surefire9833314704702235237\surefirebooter2951468066009327834.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\NAJIM~1.ELF\AppData\Local\Temp\surefire670366078562278256\surefirebooter3910041234484370162.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
@@ -44,7 +44,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\NAJIM~1.ELF\AppData\Local\Temp\"/>
     <property name="java.version" value="15.0.2"/>
-    <property name="user.dir" value="C:\Data\M2i-Formation\DEV\JAVA-TDD\Tennis Kata\tennis-kata"/>
+    <property name="user.dir" value="c:\Data\M2i-Formation\DEV\JAVA-TDD\Tennis Kata\tennis-kata"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
