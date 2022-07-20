@@ -8,15 +8,14 @@ public class Partie {
     private Joueur joueur2;
     private Joueur gagnant;
 
-    private Score scoreJoueur1 = new Score(0,0,0,false);
-    private Score scoreJoueur2 = new Score(0,0,0,false);
+    private Score scoreJoueur1 = new Score();
+    private Score scoreJoueur2 = new Score();
 
     private boolean jeuxDecisif;
 
     public Partie(Joueur joueur1, Joueur joueur2) {
         this.joueur1 = joueur1;
         this.joueur2 = joueur2;
-        this.jeuxDecisif = false;
     }
 
     public Joueur getJoueur1() {
@@ -35,12 +34,16 @@ public class Partie {
         this.joueur2 = joueur2;
     }
 
-    public Joueur getGagnant() throws NullPointerException {
-        if(gagnant == null){
-            throw new NullPointerException("Aucun gagnant, la partie n'est pas finie");
-        }
+    public Joueur getGagnant() {
         return gagnant;
     }
+
+    // public Joueur getGagnant() throws NullPointerException {
+    //     if(gagnant == null){
+    //         throw new NullPointerException("Aucun gagnant, la partie n'est pas finie");
+    //     }
+    //     return gagnant;
+    // }
 
     public void setGagnant(Joueur gagnant) {
         this.gagnant = gagnant;

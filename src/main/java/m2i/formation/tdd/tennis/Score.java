@@ -9,15 +9,15 @@ public class Score {
     private int set;
     private boolean avantage;
 
-    public Score() {
-    }
+    // public Score() {
+    // }
 
-    public Score(int point, int jeux, int set, boolean avantage) {
-        this.point = point;
-        this.jeux = jeux;
-        this.set = set;
-        this.avantage = avantage;
-    }
+    // public Score(int point, int jeux, int set, boolean avantage) {
+    //     this.point = point;
+    //     this.jeux = jeux;
+    //     this.set = set;
+    //     this.avantage = avantage;
+    // }
 
     public int getPoint() {
         return point;
