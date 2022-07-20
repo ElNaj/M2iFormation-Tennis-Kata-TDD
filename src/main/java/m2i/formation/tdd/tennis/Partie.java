@@ -38,13 +38,6 @@ public class Partie {
         return gagnant;
     }
 
-    // public Joueur getGagnant() throws NullPointerException {
-    //     if(gagnant == null){
-    //         throw new NullPointerException("Aucun gagnant, la partie n'est pas finie");
-    //     }
-    //     return gagnant;
-    // }
-
     public void setGagnant(Joueur gagnant) {
         this.gagnant = gagnant;
     }

@@ -5,10 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-// import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
-// @Nested
 @DisplayName("Egalité à 40 points")
 class PartieTennisEgalite40PointTest {
     
