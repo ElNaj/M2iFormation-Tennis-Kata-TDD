@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @DisplayName("Les deux joueurs sont a 6 jeux")
-public class JeuxDecisifTest {
+class PartieTennisJeuxDecisifTest {
 
     private static Joueur joueur1 = new Joueur();
     private static Joueur joueur2 = new Joueur();
